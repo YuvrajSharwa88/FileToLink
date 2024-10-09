@@ -3,6 +3,8 @@ from os import environ
 
 id_pattern = re.compile(r'^.\d+$')
 
+PICS = (environ.get('PICS', 'image_search_1727000465634.png')).split() #SAMPLE PIC
+
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '20388171'))
